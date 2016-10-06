@@ -1,0 +1,38 @@
+<!--Alma Gonzalez
+WebProgramming 9-12
+checkerBoard
+-->
+<!DOCTYPE html>
+<html>
+<head><!--does not display on the webpage-->
+    <meta charset="UTF-8">
+    <title>Checkerboard</title>
+    <script type="text/javascript" src="script.js"></script><!--link to the script file-->
+    <link href="style.css" rel="stylesheet" type="text/css" /><!--link to the CSS file-->
+</head>
+<!--will disply the last game played-->
+<body onResize="SAVEDGAME()">
+  <!--information on the game-->
+    <h1>WELCOME TO CHECKERS!</h1>
+    <div id="idrules"><!--rules of the game are displayed onto the page-->
+      <h3>OBJECTIVE:</h3>
+      <p>The objective of this game is to capture all of your opponents checkers or cross them to the other side.</p>
+      <h3>THE RULES OF THE GAME:<br></h3>
+        <ul>
+          <li>Move checker piece one space diagonally. Piece cannot be moved backwards until becomes a KING.</li>
+          <li>If opponent's checker piece is on a forward diagonal square and the square after is empty, jump your checker piece over the opponent's checker piece.</li>
+          <li>KING checker pieces may go back across the checkerboard.</li>
+          <li>Once your checker piece reaches the opposite side of board, it is crowned as a KING.</li>
+        </ul>
+      </div>
+    <!--use canvas to draw the board-->
+    <canvas id="idBoard">
+    </canvas>
+    <!--div that will contain the scoreCounter for the players-->
+    <div id="idscoreCounter"></div>
+    <script type="text/javascript">
+      //game will begin
+        STARTGAME();
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{/*the webpage a background image that covers the entire background*/
+    background-image: url("back.jpg");
+    background-size: 100% auto;
+}
+h1{/*css of WELCOME TO CHECERS area*/
+  display:block;
+  position:static;
+  font-size: 50px;
+  max-width:600px;
+  left:auto;
+  text-align: center;
+}
+#idrules{/*css of RULES area*/
+  clear: both;
+  display:block;
+  overflow:auto;
+  width:25%;
+  background-color:#c47edd;
+  height:550px;
+  font-size:25px;
+  -webkit-box-shadow: 3px 3px 2px #888
+}
+#idBoard{/*css of the checkerbaord */
+    border:1px solid black;
+    position:absolute;
+    top:50px;
+    display:inline-block;
+}
+#idscoreCounter{/*scoreCounter board that displays the scores*/
+    position:absolute;
+    display: inline-block;
+    float:right;
+    right:0px;
+    top:50px;
+}
+#idrestartGame{/*css of the START NEW GAME*/
+    border:2px solid black;
+    border-radius:10px;
+    -webkit-box-shadow: 3px 3px 2px #888;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+    cursor:pointer;
+    background-color:#c47edd;
+}
+.cplayers{/*css of the players information*/
+    border:2px solid black;
+    border-radius:10px;
+    margin:15px;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+    background-color: #c47edd;
+}
+#whosturn{/*css whos turn it is on the webpage*/
+    border:2px solid black;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+    background-color:#c47edd;
+}
