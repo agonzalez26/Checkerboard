@@ -184,7 +184,7 @@ function LIFTPIECE(e){//checcks the location and lifts piece from current square
     boardContext.stroke();
     boardContext.fill();
     // Add a "crown" if the p is kinged
-    if(movingPiece.king) {//if the piece that is moving is already a king
+    if(movingPiece.king){//if the piece that is moving is already a king
         boardContext.beginPath();
         boardContext.lineWidth = 4;
         boardContext.strokeStyle = "yellow";
