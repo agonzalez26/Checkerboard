@@ -5,8 +5,8 @@ body{/*the webpage a background image that covers the entire background*/
 h1{/*css of WELCOME TO CHECERS area*/
   display:block;
   position:static;
-  font-size: 50px;
-  max-width:600px;
+  font-size: 33px;
+  max-width:60px;
   left:auto;
   text-align: center;
 }
@@ -16,14 +16,14 @@ h1{/*css of WELCOME TO CHECERS area*/
   overflow:auto;
   width:25%;
   background-color:#c47edd;
-  height:550px;
-  font-size:25px;
+  height:444px;
+  font-size:17px;
   -webkit-box-shadow: 3px 3px 2px #888
 }
 #idBoard{/*css of the checkerbaord */
     border:1px solid black;
     position:absolute;
-    top:50px;
+    top:10px;
     display:inline-block;
 }
 #idscoreCounter{/*scoreCounter board that displays the scores*/
@@ -41,7 +41,7 @@ h1{/*css of WELCOME TO CHECERS area*/
     padding:10px;
     text-align:center;
     font-weight:bold;
-    font-size:25px;
+    font-size:15px;
     cursor:pointer;
     background-color:#c47edd;
 }
@@ -52,7 +52,7 @@ h1{/*css of WELCOME TO CHECERS area*/
     padding:10px;
     text-align:center;
     font-weight:bold;
-    font-size:25px;
+    font-size:15px;
     background-color: #c47edd;
 }
 #whosturn{/*css whos turn it is on the webpage*/
@@ -62,6 +62,6 @@ h1{/*css of WELCOME TO CHECERS area*/
     padding:10px;
     text-align:center;
     font-weight:bold;
-    font-size:25px;
+    font-size:15px;
     background-color:#c47edd;
 }

@@ -1,5 +1,5 @@
 //variables for the checkerboard game
-var squareSize = 125;//size of the squares
+var squareSize = 75;//size of the squares
 var boardWidth = squareSize * 8;//width of the board
 var boardHeight = squareSize * 8;//height of the board
 var blackChecker = "#000000";//blackChecker piece
@@ -140,7 +140,7 @@ function DRAWPIECE(){//draws the pieces onto the board
         // Add a "crown" if the p is kinged!!
         if(boardPieceTracker[i].king) {
             boardContext.beginPath();
-            boardContext.lineWidth=10;//width of the circle
+            boardContext.lineWidth=7;//width of the circle
             boardContext.strokeStyle="yellow";//color of the crown
             boardContext.arc((boardPieceTracker[i].col-1)*squareSize+(squareSize*.5)+.5,(boardPieceTracker[i].row-1)*squareSize+(squareSize*.5)+.5,(squareSize*.5)-30,0,2*Math.PI,false);
             boardContext.closePath();
@@ -186,7 +186,7 @@ function LIFTPIECE(e){//checcks the location and lifts piece from current square
     // Add a "crown" if the p is kinged
     if(movingPiece.king) {//if the piece that is moving is already a king
         boardContext.beginPath();
-        boardContext.lineWidth = 5;
+        boardContext.lineWidth = 7;
         boardContext.strokeStyle = "yellow";
         boardContext.arc(canvasLocation[0],canvasLocation[1],(squareSize*.5)-30,0,2*Math.PI,false);
         boardContext.closePath();
