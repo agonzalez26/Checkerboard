@@ -23,7 +23,7 @@ h1{/*css of WELCOME TO CHECERS area*/
 #idBoard{/*css of the checkerbaord */
     border:1px solid black;
     position:absolute;
-    top:10px;
+    top:5px;
     display:inline-block;
 }
 #idscoreCounter{/*scoreCounter board that displays the scores*/
