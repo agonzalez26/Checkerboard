@@ -1,5 +1,5 @@
 //variables for the checkerboard game
-var squareSize = 75;//size of the squares
+var squareSize = 60;//size of the squares
 var boardWidth = squareSize * 8;//width of the board
 var boardHeight = squareSize * 8;//height of the board
 var blackChecker = "#000000";//blackChecker piece
